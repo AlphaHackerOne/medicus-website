@@ -257,6 +257,6 @@ UpToDate (current year)
 
 ═══════════════════════════════════════════════════════
 Now generate the complete 20-section JSON for:
-TOPIC: [Myocardial Infarction]
+TOPIC: [Heart Failure]
 MODULE: [Cardiology]
 ═══════════════════════════════════════════════════════
