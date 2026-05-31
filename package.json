@@ -1,0 +1,11 @@
+{
+  "name": "medicus-platform",
+  "version": "1.0.0",
+  "description": "Medicus — Medical Learning Platform",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "engines": { "node": ">=16" }
+}

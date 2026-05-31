@@ -1,0 +1,381 @@
+## ❤️ Cardiology
+1. Myocardial Infarction ✅ *(built)*
+2. Heart Failure
+3. Hypertension
+4. Atrial Fibrillation
+5. Aortic Stenosis
+6. Aortic Regurgitation
+7. Mitral Stenosis
+8. Mitral Regurgitation
+9. Infective Endocarditis
+10. Pericarditis & Cardiac Tamponade
+11. Dilated Cardiomyopathy
+12. Hypertrophic Cardiomyopathy
+13. Restrictive Cardiomyopathy
+14. Deep Vein Thrombosis
+15. Pulmonary Embolism
+16. Aortic Dissection
+17. Peripheral Arterial Disease
+18. Ventricular Tachycardia & VF
+19. Complete Heart Block
+20. Supraventricular Tachycardia (SVT)
+
+---
+
+## 🫁 Respiratory
+21. Community-Acquired Pneumonia
+22. Hospital-Acquired Pneumonia
+23. COPD
+24. Asthma
+25. Pulmonary Tuberculosis
+26. Lung Carcinoma
+27. Pleural Effusion
+28. Pneumothorax
+29. Bronchiectasis
+30. Sarcoidosis
+31. ARDS (Acute Respiratory Distress Syndrome)
+32. Pulmonary Fibrosis (IPF)
+33. Obstructive Sleep Apnoea
+34. Cystic Fibrosis
+35. Mesothelioma
+36. Pneumocystis Pneumonia (PCP)
+37. Lung Abscess
+38. Respiratory Failure (Type 1 & 2)
+
+---
+
+## 🫀 Gastroenterology
+39. Peptic Ulcer Disease
+40. GORD (Gastro-Oesophageal Reflux Disease)
+41. Crohn's Disease
+42. Ulcerative Colitis
+43. Liver Cirrhosis
+44. Acute Hepatitis (A, B, C, E)
+45. Chronic Hepatitis B
+46. Chronic Hepatitis C
+47. Acute Pancreatitis
+48. Chronic Pancreatitis
+49. Acute Appendicitis
+50. Cholecystitis & Cholelithiasis
+51. Bowel Obstruction
+52. Colorectal Cancer
+53. Oesophageal Cancer
+54. Gastric Cancer
+55. Hepatocellular Carcinoma
+56. Coeliac Disease
+57. Irritable Bowel Syndrome
+58. Upper GI Bleed
+59. Lower GI Bleed
+60. Spontaneous Bacterial Peritonitis
+61. Hepatic Encephalopathy
+62. Ascites
+63. Primary Biliary Cirrhosis (PBC)
+64. Primary Sclerosing Cholangitis (PSC)
+
+---
+
+## 🧠 Neurology
+65. Ischaemic Stroke
+66. Haemorrhagic Stroke
+67. Subarachnoid Haemorrhage
+68. Transient Ischaemic Attack (TIA)
+69. Bacterial Meningitis
+70. Viral Encephalitis
+71. Epilepsy
+72. Status Epilepticus
+73. Parkinson's Disease
+74. Multiple Sclerosis
+75. Guillain-Barré Syndrome
+76. Myasthenia Gravis
+77. Migraine
+78. Cluster Headache
+79. Dementia / Alzheimer's Disease
+80. Motor Neuron Disease
+81. Subdural Haematoma
+82. Extradural Haematoma
+83. Idiopathic Intracranial Hypertension
+84. Peripheral Neuropathy
+85. Bell's Palsy
+86. Trigeminal Neuralgia
+
+---
+
+## ⚗️ Endocrinology
+87. Type 1 Diabetes Mellitus
+88. Type 2 Diabetes Mellitus
+89. Diabetic Ketoacidosis (DKA)
+90. Hyperosmolar Hyperglycaemic State (HHS)
+91. Hypoglycaemia
+92. Hypothyroidism
+93. Hyperthyroidism / Graves' Disease
+94. Thyroid Storm
+95. Thyroid Cancer
+96. Cushing's Syndrome
+97. Addison's Disease
+98. Primary Hyperaldosteronism (Conn's Syndrome)
+99. Hyperparathyroidism
+100. Hypoparathyroidism
+101. Acromegaly
+102. Prolactinoma
+103. Diabetes Insipidus
+104. SIADH
+105. Pheochromocytoma
+106. Multiple Endocrine Neoplasia (MEN 1 & 2)
+107. Metabolic Syndrome
+
+---
+
+## 🫘 Nephrology
+108. Acute Kidney Injury (AKI)
+109. Chronic Kidney Disease (CKD)
+110. Nephrotic Syndrome
+111. Nephritic Syndrome
+112. IgA Nephropathy (Berger's Disease)
+113. Minimal Change Disease
+114. Focal Segmental Glomerulosclerosis (FSGS)
+115. Membranous Nephropathy
+116. Goodpasture's Syndrome
+117. Polycystic Kidney Disease
+118. Renal Cell Carcinoma
+119. Urinary Tract Infection
+120. Pyelonephritis
+121. Renal Calculi (Nephrolithiasis)
+122. Renal Tubular Acidosis
+123. Hyponatraemia
+124. Hypernatraemia
+125. Hyperkalaemia
+126. Hypokalaemia
+127. Metabolic Acidosis
+128. Metabolic Alkalosis
+
+---
+
+## 🩸 Haematology
+129. Iron Deficiency Anaemia
+130. B12 / Folate Deficiency Anaemia
+131. Haemolytic Anaemia
+132. Sickle Cell Disease
+133. Thalassaemia
+134. Aplastic Anaemia
+135. Acute Myeloid Leukaemia (AML)
+136. Acute Lymphoblastic Leukaemia (ALL)
+137. Chronic Myeloid Leukaemia (CML)
+138. Chronic Lymphocytic Leukaemia (CLL)
+139. Hodgkin's Lymphoma
+140. Non-Hodgkin's Lymphoma
+141. Multiple Myeloma
+142. Haemophilia A & B
+143. von Willebrand Disease
+144. Immune Thrombocytopaenia (ITP)
+145. Thrombotic Thrombocytopaenic Purpura (TTP)
+146. Disseminated Intravascular Coagulation (DIC)
+147. Polycythaemia Vera
+148. Essential Thrombocythaemia
+149. Myelofibrosis
+150. Heparin-Induced Thrombocytopaenia (HIT)
+
+---
+
+## 🦴 Rheumatology
+151. Rheumatoid Arthritis
+152. Systemic Lupus Erythematosus (SLE)
+153. Osteoarthritis
+154. Gout
+155. Pseudogout (CPPD)
+156. Ankylosing Spondylitis
+157. Psoriatic Arthritis
+158. Reactive Arthritis (Reiter's Syndrome)
+159. Systemic Sclerosis (Scleroderma)
+160. Sjögren's Syndrome
+161. Polymyalgia Rheumatica
+162. Giant Cell Arteritis (Temporal Arteritis)
+163. Wegener's Granulomatosis (GPA)
+164. Polyarteritis Nodosa
+165. Dermatomyositis / Polymyositis
+166. Antiphospholipid Syndrome
+167. Fibromyalgia
+168. Septic Arthritis
+
+---
+
+## 👶 Paediatrics
+169. Febrile Seizures
+170. Kawasaki Disease
+171. Meningococcal Disease
+172. Croup (Laryngotracheobronchitis)
+173. Epiglottitis
+174. Bronchiolitis (RSV)
+175. Intussusception
+176. Pyloric Stenosis
+177. Hirschsprung's Disease
+178. Necrotising Enterocolitis
+179. Tetralogy of Fallot
+180. Ventricular Septal Defect (VSD)
+181. Atrial Septal Defect (ASD)
+182. Patent Ductus Arteriosus (PDA)
+183. Transposition of Great Arteries
+184. Coarctation of the Aorta
+185. Nephrotic Syndrome (children)
+186. Henoch-Schönlein Purpura
+187. Wilms' Tumour (Nephroblastoma)
+188. Neuroblastoma
+189. Failure to Thrive
+190. Neonatal Jaundice
+191. Neonatal Sepsis
+192. Childhood Asthma
+193. Autism Spectrum Disorder
+194. ADHD
+195. Developmental Milestones (normal)
+
+---
+
+## 🔪 Surgery
+196. Acute Abdomen — Approach
+197. Inguinal Hernia
+198. Femoral Hernia
+199. Umbilical & Incisional Hernia
+200. Acute Appendicitis
+201. Bowel Obstruction (Small & Large)
+202. Volvulus
+203. Colorectal Cancer
+204. Abdominal Aortic Aneurysm
+205. Breast Cancer
+206. Breast Abscess & Mastitis
+207. Thyroid Nodule & Cancer
+208. Parathyroid Disease — Surgical
+209. Adrenal Tumours — Surgical
+210. Peripheral Vascular Disease
+211. Varicose Veins & Venous Insufficiency
+212. Burns Management
+213. Wound Healing & Surgical Complications
+214. Pancreatitis — Surgical Management
+215. Obstructive Jaundice — Surgical Causes
+216. Gallstone Disease & ERCP
+217. Haemorrhoids & Anorectal Disease
+218. Acute Limb Ischaemia
+219. Post-operative Complications
+220. Trauma — Primary & Secondary Survey (ATLS)
+
+---
+
+## 🌸 Obstetrics & Gynaecology
+221. Normal Pregnancy & Antenatal Care
+222. Pre-eclampsia & Eclampsia
+223. Gestational Diabetes
+224. Placenta Praevia
+225. Placental Abruption
+226. Ectopic Pregnancy
+227. Miscarriage (Types & Management)
+228. Postpartum Haemorrhage
+229. Postpartum Depression & Psychosis
+230. Preterm Labour
+231. Prolonged & Obstructed Labour
+232. HELLP Syndrome
+233. Deep Vein Thrombosis in Pregnancy
+234. Hyperemesis Gravidarum
+235. Ovarian Cyst & Torsion
+236. Polycystic Ovary Syndrome (PCOS)
+237. Endometriosis
+238. Uterine Fibroids
+239. Cervical Cancer
+240. Ovarian Cancer
+241. Endometrial Cancer
+242. Vulval Cancer
+243. Pelvic Inflammatory Disease (PID)
+244. Sexually Transmitted Infections
+245. Menopause & HRT
+246. Contraception
+
+---
+
+## 🦠 Infectious Diseases
+247. Sepsis & Septic Shock
+248. Malaria
+249. HIV / AIDS
+250. Tuberculosis (Extrapulmonary)
+251. COVID-19 & Post-COVID
+252. Dengue Fever
+253. Typhoid Fever
+254. Cholera
+255. Rabies
+256. Leptospirosis
+257. Tetanus
+258. Meningococcal Disease
+259. Infective Endocarditis (Infectious)
+260. Clostridium difficile Infection
+261. MRSA & Healthcare-associated Infections
+262. Herpes Simplex & Zoster
+263. Epstein-Barr Virus (Infectious Mononucleosis)
+264. CMV Infection
+265. Leishmaniasis
+266. Schistosomiasis
+267. Helminth Infections (Worms)
+268. Fungal Infections (Candida, Aspergillus, Cryptococcus)
+
+---
+
+## 🧬 Dermatology
+269. Psoriasis
+270. Eczema / Atopic Dermatitis
+271. Acne Vulgaris
+272. Rosacea
+273. Urticaria & Angioedema
+274. Pemphigus Vulgaris
+275. Bullous Pemphigoid
+276. Melanoma
+277. Basal Cell Carcinoma
+278. Squamous Cell Carcinoma
+279. Cellulitis & Erysipelas
+280. Scabies
+281. Tinea Infections
+282. Stevens-Johnson Syndrome / TEN
+283. Drug Reactions (DRESS, fixed drug eruption)
+
+---
+
+## 👁️ Ophthalmology
+284. Diabetic Retinopathy
+285. Glaucoma
+286. Age-related Macular Degeneration
+287. Cataract
+288. Retinal Detachment
+289. Uveitis
+290. Conjunctivitis
+291. Acute Red Eye — Approach
+
+---
+
+## 👂 ENT
+292. Otitis Media & Otitis Externa
+293. Hearing Loss — Approach
+294. Epistaxis
+295. Tonsillitis & Peritonsillar Abscess
+296. Sinusitis
+297. Laryngeal Cancer
+298. Head & Neck Cancers
+
+---
+
+## 🧠 Psychiatry
+299. Depression
+300. Bipolar Disorder
+301. Schizophrenia
+302. Anxiety Disorders (GAD, Panic)
+303. Obsessive-Compulsive Disorder
+304. PTSD
+305. Eating Disorders (Anorexia, Bulimia)
+306. Substance Use Disorders
+307. Delirium
+308. Personality Disorders
+
+---
+
+## 💉 Pharmacology & Critical Care
+309. Common Drug Toxicities & Overdoses
+310. Paracetamol Overdose
+311. Opioid Toxidrome
+312. Organophosphate Poisoning
+313. ICU Basics — Mechanical Ventilation
+314. Acid-Base Interpretation
+315. Fluid Management in Critical Care
+316. Anaphylaxis

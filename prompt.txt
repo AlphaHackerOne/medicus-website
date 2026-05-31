@@ -1,0 +1,262 @@
+You are a senior medical education content expert. Generate a comprehensive Medicus medical note in strict JSON format for the topic below.
+
+TOPIC: [TOPIC NAME e.g. NSTEMI, Pneumonia, Stroke]
+MODULE: [MODULE NAME e.g. Cardiology, Respiratory, Neurology]
+
+OUTPUT: Return ONLY valid JSON. No markdown, no backticks, no preamble, no explanation outside the JSON object.
+
+═══════════════════════════════════════════════════════
+JSON SCHEMA (20 SECTIONS — ALL REQUIRED)
+═══════════════════════════════════════════════════════
+{
+  "sections": [
+    {
+      "title": "Overview",
+      "label": "Disease Overview",
+      "h1": "[Disease Name]",
+      "sub": "[ICD-10 code] · [relevant textbook chapters] · [key guidelines]",
+      "icon": "🏥",
+      "html": "..."
+    },
+    { "title": "Aetiology", "label": "Aetiology & Microbiology", "h1": "...", "sub": "...", "icon": "🦠", "html": "..." },
+    { "title": "Epidemiology", "label": "Epidemiology", "h1": "...", "sub": "...", "icon": "📊", "html": "..." },
+    { "title": "Risk Factors", "label": "Risk Factors", "h1": "...", "sub": "...", "icon": "⚠️", "html": "..." },
+    { "title": "Pathophysiology", "label": "Pathophysiology", "h1": "...", "sub": "...", "icon": "⚗️", "html": "..." },
+    { "title": "Classification", "label": "Classification & Subtypes", "h1": "...", "sub": "...", "icon": "🗂️", "html": "..." },
+    { "title": "Clinical", "label": "Clinical Features", "h1": "...", "sub": "...", "icon": "🩺", "html": "..." },
+    { "title": "Named Signs", "label": "Named Signs & Eponyms", "h1": "...", "sub": "...", "icon": "👁️", "html": "..." },
+    { "title": "Investigations", "label": "Investigations", "h1": "...", "sub": "...", "icon": "🔬", "html": "..." },
+    { "title": "Diagnosis", "label": "Gold Standard Diagnosis", "h1": "...", "sub": "...", "icon": "✅", "html": "..." },
+    { "title": "Imaging", "label": "Diagnostic Imaging Gallery", "h1": "...", "sub": "...", "icon": "🖼️", "html": "..." },
+    { "title": "Management", "label": "Medical Management", "h1": "...", "sub": "...", "icon": "💊", "html": "..." },
+    { "title": "Special Regimens", "label": "MDR / Special Regimens", "h1": "...", "sub": "...", "icon": "🧬", "html": "..." },
+    { "title": "Complications", "label": "Complications", "h1": "...", "sub": "...", "icon": "⛔", "html": "..." },
+    { "title": "Differentials", "label": "Differential Diagnosis", "h1": "...", "sub": "...", "icon": "🔄", "html": "..." },
+    { "title": "Special Populations", "label": "Special Populations", "h1": "...", "sub": "...", "icon": "👶", "html": "..." },
+    { "title": "Exam Pearls", "label": "High-Yield Exam Pearls", "h1": "...", "sub": "...", "icon": "⭐", "html": "..." },
+    { "title": "Mnemonics", "label": "Mnemonics", "h1": "...", "sub": "...", "icon": "🧠", "html": "..." },
+    { "title": "Exam Traps", "label": "Exam Traps", "h1": "...", "sub": "...", "icon": "🪤", "html": "..." },
+    { "title": "Prognosis", "label": "Natural History & Prognosis", "h1": "...", "sub": "...", "icon": "📈", "html": "..." }
+  ],
+  "quiz": [ ...10 question objects... ]
+}
+
+═══════════════════════════════════════════════════════
+HTML COMPONENTS — USE EXACTLY THESE CSS CLASSES
+═══════════════════════════════════════════════════════
+
+── STAT PILLS (inline badges in text) ──
+<span class="pill t">teal text</span>
+<span class="pill r">red text</span>
+<span class="pill g">green text</span>
+<span class="pill o">orange text</span>
+<span class="pill p">blue text</span>
+<span class="pill v">violet text</span>
+
+── STAT BOXES (key numbers) ──
+<div class="stat-grid">
+  <div class="stat-box danger"><div class="stat-label">Mortality</div><div class="stat-val">40%</div><div class="stat-sub">untreated</div></div>
+  <div class="stat-box highlight">...</div>  <!-- teal -->
+  <div class="stat-box warn">...</div>       <!-- gold -->
+  <div class="stat-box blue">...</div>
+  <div class="stat-box purple">...</div>
+  <div class="stat-box">...</div>            <!-- neutral -->
+</div>
+
+── HIGHLIGHT BOXES ──
+<div class="hbox teal"><div class="hbox-title">Title</div><p>Content or <ul><li>list</li></ul></p></div>
+<div class="hbox red"><div class="hbox-title">⚡ Warning</div><ul><li>Point 1</li><li>Point 2</li></ul></div>
+<!-- Also: gold, purple, blue, green, orange -->
+
+── TABLES ──
+<table class="med-table">
+  <thead><tr><th>Column 1</th><th>Column 2</th><th>Column 3</th></tr></thead>
+  <tbody>
+    <tr><td>Item</td><td><span class="val-critical">Critical</span></td><td>Meaning</td></tr>
+    <tr><td>Item</td><td><span class="val-high">High</span></td><td>Meaning</td></tr>
+    <tr><td>Item</td><td><span class="val-abnormal">Abnormal</span></td><td>Meaning</td></tr>
+    <tr><td>Item</td><td><span class="val-normal">Normal</span></td><td>Meaning</td></tr>
+  </tbody>
+</table>
+
+── BULLET LISTS ──
+<ul class="blist"><li><strong>Term:</strong> Explanation</li></ul>
+<ul class="blist red">...</ul>  <!-- red diamonds -->
+<ul class="blist gold">...</ul>
+<ul class="blist blue">...</ul>
+<ul class="blist purple">...</ul>
+
+── SECTIONS ──
+<div class="section"><div class="section-title">Section Title</div>[content]</div>
+
+── TWO / THREE COLUMN ──
+<div class="two-col"><div>...</div><div>...</div></div>
+<div class="three-col"><div>...</div><div>...</div><div>...</div></div>
+
+── COMPARISON GRID ──
+<div class="comp-grid">
+  <div class="comp-col col-a"><div class="comp-col-title">🔴 Type A</div><div class="comp-item">Feature</div></div>
+  <div class="comp-col col-b"><div class="comp-col-title">🟡 Type B</div><div class="comp-item">Feature</div></div>
+</div>
+<!-- Also: stemi / nstemi for red/gold colour -->
+
+── DRUG CARDS (7 fields) ──
+<div class="drug-grid">
+  <div class="drug-card primary">
+    <div class="drug-name">Drug Name</div>
+    <div class="drug-class">Drug Class</div>
+    <div class="drug-detail">MOA: ... | SE: ... | CI: ...</div>
+    <div class="drug-dose">Loading: Xmg → Maintenance: Xmg OD</div>
+    <div class="drug-row">
+      <div class="drug-row-label">Monitor</div><div class="drug-row-val">LFTs, K⁺</div>
+      <div class="drug-row-label">Trials</div><div class="drug-row-val">PLATO 2009</div>
+      <div class="drug-row-label">Tier</div><div class="drug-row-val">First-line</div>
+    </div>
+  </div>
+</div>
+<!-- drug-card colours: primary (teal), secondary (blue), warning (gold), danger (red), violet -->
+
+── TIMELINE ──
+<div class="timeline">
+  <div class="tl-item"><div class="tl-dot"></div><div class="tl-time">0–20 sec</div><div class="tl-content">Event description</div></div>
+  <div class="tl-item gold">...</div>  <!-- also: red, blue -->
+</div>
+
+── STEP FLOW ──
+<div class="step-flow">
+  <div class="step-item"><div class="step-num">1</div><div class="step-text"><strong>Step:</strong> Detail</div></div>
+</div>
+
+── CHIPS (severity overview) ──
+<div class="chips">
+  <div class="chip severe">Severe Complication</div>
+  <div class="chip mod">Moderate</div>
+  <div class="chip mild">Mild</div>
+  <div class="chip info">Information</div>
+  <div class="chip purple">Special</div>
+</div>
+
+── MNEMONIC BOXES (dark purple gradient) ──
+<div class="mnemonic">
+  <div class="mn-label">Mnemonic — Title</div>
+  <div class="mn-word">ACRONYM</div>
+  <ul class="mn-list">
+    <li><span class="mn-letter">A</span>First item full expansion</li>
+    <li><span class="mn-letter">B</span>Second item expansion</li>
+  </ul>
+</div>
+
+── EXAM TRAP BOXES (orange ⚠️) ──
+<div class="trap-box">
+  <div class="trap-icon">⚠️</div>
+  <div class="trap-text"><strong>Trap title:</strong> Why students get this wrong — correct approach stated clearly.</div>
+</div>
+
+── LANDMARK TRIAL BADGE ──
+<div class="trial-badge">
+  <div class="trial-name">TRIAL NAME (Year)</div>
+  <div class="trial-meta">Design: RCT · N=3,000 · Duration: 12 months</div>
+  <div class="trial-finding">Finding: <strong>Key result in one sentence</strong>. Clinical impact: how it changed practice.</div>
+</div>
+
+── HIGH-YIELD PEARL LIST (numbered) ──
+<ol class="pearl-list">
+  <li>Pearl one — concise factual statement</li>
+  <li>Pearl two — concise factual statement</li>
+</ol>
+
+── FORMULA BOX ──
+<div class="formula-box">
+  <div class="formula-label">Formula Name</div>
+  Variable = Value₁ + Value₂ / Denominator
+</div>
+
+── PACS IMAGING GALLERY (Section 11 — Imaging) ──
+Use a 3×2 grid of PACS-style dark cards. For each modality, write an SVG approximation:
+- CXR: grayscale radiograph (lung fields, cardiomegaly, effusion lines)
+- CT: dark background with Hounsfield tone shapes (hypodense, hyperdense areas)
+- Histology: pink (H&E) with purple nuclei, cell pattern
+- Micro stain (ZN/Gram): coloured rods/cocci on background
+- Gross specimen: simplified organ shape with lesion
+- ECG trace: simplified leads showing key abnormality
+
+<div class="pacs-grid">
+  <div class="pacs-card">
+    <div class="pacs-label">CXR — PA view</div>
+    <svg viewBox="0 0 200 200" style="background:#111;border-radius:6px">
+      <!-- grayscale radiograph simulation SVG -->
+    </svg>
+  </div>
+  <!-- ... 5 more cards ... -->
+</div>
+
+═══════════════════════════════════════════════════════
+SECTION-BY-SECTION CONTENT REQUIREMENTS
+═══════════════════════════════════════════════════════
+1.  Overview: stat-grid (6 boxes), ICD-10 + summary hbox.teal, STEMI/NSTEMI-equivalent comparison if relevant, 5+ high-yield pearls hbox.red
+2.  Aetiology: organism table (if infectious: Gram stain, culture, virulence), OR aetiology classification table with mechanisms
+3.  Epidemiology: stat-grid, incidence/prevalence table by region, sex/age breakdown, geographic burden hbox
+4.  Risk Factors: two-column comp-grid (modifiable vs non-modifiable), key study reference, OR table with RR values
+5.  Pathophysiology: step-flow (macro events) + timeline (cellular/molecular events), key molecular targets labelled, hbox.purple for mechanism pearl
+6.  Classification: all WHO/clinical/severity systems as table, chips for severity overview, comparison grid for subtypes
+7.  Clinical: hbox.red (classic presentation), two-col (symptoms vs signs), signs table with significance column, Killip/CURB-65/equivalent scoring table, special populations inline notes
+8.  Named Signs: table with 6+ signs (Name | Technique | Positive finding | Significance)
+9.  Investigations: comprehensive table (Test | Finding | Expected Value | Sensitivity/Specificity | Relevance), algorithmic hbox.teal for key rule-in/rule-out criteria
+10. Diagnosis: gold standard definition hbox.teal, diagnostic criteria table (e.g. Duke, Jones, Rome, WHO), scoring system formula-box
+11. Imaging: pacs-grid 3×2 with SVG approximations for 6 modalities (CXR, CT, histology, micro stain, gross specimen, ECG/special)
+12. Management: step-flow (acute phase), drug-grid with ALL 7 fields per card (name, class, detail with MOA+SE+CI, dose, monitor, trial, tier), secondary prevention table
+13. Special Regimens: drug-grid for MDR/resistant/special cases, trial badges for key landmark trials (3+ trials with full details)
+14. Complications: chips overview, table (Complication | Timing | Features | Management), acute/chronic/drug-related categories
+15. Differentials: table (Condition | Key Differentiator | Shared Feature | Distinguishing Test)
+16. Special Populations: four-column table or two-col grid (Pregnancy | HIV | Renal/Hepatic impairment | Elderly | Paediatric)
+17. Exam Pearls: pearl-list with 15 numbered one-liner facts covering diagnosis, management, mechanisms, statistics
+18. Mnemonics: 3 mnemonic boxes minimum with full letter expansions
+19. Exam Traps: 8 trap-boxes minimum with ⚠️ format — cover: diagnosis traps, management traps, drug traps, ECG traps
+20. Prognosis: stat-grid (outcomes), two-col (good vs poor prognostic factors), timeline (natural history), trial badges for key prognostic studies
+
+═══════════════════════════════════════════════════════
+QUIZ — 10 QUESTIONS (USMLE/MRCP STYLE)
+═══════════════════════════════════════════════════════
+"quiz": [
+  {
+    "q": "[Full clinical vignette: age, sex, presenting complaint, examination findings, investigations, then question]",
+    "opts": ["A. Option A","B. Option B","C. Option C","D. Option D","E. Option E"],
+    "correct": 0,
+    "exp": "[Detailed explanation of correct answer. Use <strong> for key terms. Cite mechanisms, trials, guidelines.]",
+    "whys": [
+      "[Why option B wrong]",
+      "[Why option C wrong]",
+      "[Why option D wrong]",
+      "[Why option E wrong]"
+    ]
+  }
+]
+
+QUIZ RULES:
+- Exactly 10 questions
+- ALL clinical vignette style (realistic patient scenario)
+- Cover all: diagnosis, mechanism, investigation, management, complications, pharmacology, special populations
+- "correct" = 0-indexed integer (0=A, 1=B, 2=C, 3=D, 4=E)
+- "whys" = exactly 4 items (one for each WRONG option, in order, skipping the correct one)
+- Use <strong> tags in exp and whys
+- Reference real landmark trials and guidelines
+
+═══════════════════════════════════════════════════════
+MEDICAL SOURCES
+═══════════════════════════════════════════════════════
+Harrison's Principles of Internal Medicine (21st ed)
+Davidson's Principles and Practice of Medicine (24th ed)
+Kumar and Clark's Clinical Medicine (10th ed)
+Oxford Handbook of Clinical Medicine (10th ed)
+Current ESC / ACC / AHA / NICE / WHO guidelines
+First Aid for USMLE Step 1 & Step 2 CK
+Robbins & Cotran Pathologic Basis of Disease (10th ed)
+Gray's Anatomy (42nd ed)
+Goodman & Gilman's The Pharmacological Basis of Therapeutics (14th ed)
+UpToDate (current year)
+
+═══════════════════════════════════════════════════════
+Now generate the complete 20-section JSON for:
+TOPIC: [Myocardial Infarction]
+MODULE: [Cardiology]
+═══════════════════════════════════════════════════════

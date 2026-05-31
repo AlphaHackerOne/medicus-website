@@ -1,0 +1,14 @@
+{
+  "modules": [
+    {
+      "id": "cardiology",
+      "name": "Cardiology",
+      "icon": "🫀"
+    }
+  ],
+  "topics": {},
+  "stats": {
+    "exams": 0
+  },
+  "adminPassword": "H0WQZ6ZX"
+}
